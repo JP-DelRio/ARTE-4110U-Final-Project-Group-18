@@ -1,0 +1,25 @@
+[project]
+name = "arte-4110u-final-project-group-18"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "JonathanLeaper", email = "jonathan.leaper@ontariotechu.net" }
+]
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "numpy>=2.5.4",
+    "torch>=2.15.0",
+]
+
+[project.scripts]
+arte-4110u-final-project-group-18 = "arte_4110u_final_project_group_18:main"
+
+[build-system]
+requires = ["uv_build>=0.13.9,<0.14.0"]
+build-backend = "uv_build"
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+default = true
