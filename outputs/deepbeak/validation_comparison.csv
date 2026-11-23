@@ -1,0 +1,3 @@
+model,best_epoch,val_macro_f1,val_accuracy
+SmallCNN baseline,7,0.14060417843026538,0.19298245614035087
+ResNet18 pretrained,11,0.6436336967067191,0.6608187134502924

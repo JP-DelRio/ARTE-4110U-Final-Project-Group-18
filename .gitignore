@@ -1,1 +1,4 @@
 .venv/
+.kaggle/
+outputs/deepbeak/audio_cache
+.ipynb_checkpoints/

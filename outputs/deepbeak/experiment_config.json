@@ -1,0 +1,60 @@
+{
+  "project": "DeepBeak",
+  "course": "ARTE 4110U",
+  "group": 18,
+  "seed": 4110,
+  "selected_species": [
+    "eubeat1",
+    "bcbeat1",
+    "wfbeat1",
+    "rindov",
+    "laudov1",
+    "reedov1",
+    "afecuc1",
+    "didcuc1",
+    "klacuc1",
+    "eaywag1",
+    "afpwag1",
+    "wlwwar",
+    "brwwar1",
+    "gnbcam2",
+    "grbcam1",
+    "carcha1",
+    "wbrcha2",
+    "rerswa1",
+    "lessts1",
+    "ratcis1"
+  ],
+  "selected_genera": [
+    "Merops",
+    "Streptopelia",
+    "Chrysococcyx",
+    "Motacilla",
+    "Phylloscopus",
+    "Camaroptera",
+    "Cossypha",
+    "Cecropis",
+    "Cisticola"
+  ],
+  "recordings_per_species_cap": 60,
+  "split": {
+    "train": 0.7,
+    "validation": 0.15,
+    "test": 0.15
+  },
+  "sample_rate": 32000,
+  "clip_seconds": 5,
+  "n_mels": 96,
+  "max_epochs": 15,
+  "batch_size": 16,
+  "models": [
+    "SmallCNN trained from scratch",
+    "ImageNet-pretrained ResNet18"
+  ],
+  "noise_levels_db": [
+    10,
+    5,
+    0
+  ],
+  "device": "cpu"
+}
